@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#EDEFE3"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#232D24" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#232D24" fill-opacity="0.07">A</text>
+  
+      <rect x="286" y="400" width="228" height="160" rx="12" fill="none" stroke="#232D24" stroke-width="15"/>
+      <rect x="384" y="560" width="32" height="40" fill="#232D24"/>
+      <rect x="330" y="600" width="140" height="20" rx="8" fill="#232D24"/>
+      <rect x="190" y="636" width="420" height="38" rx="12" fill="#232D24"/>
+      <rect x="226" y="674" width="26" height="86" fill="#232D24"/>
+      <rect x="548" y="674" width="26" height="86" fill="#232D24"/>
+      <circle cx="486" cy="428" r="11" fill="#7D8F5F"/>
+      <line x1="150" y1="800" x2="650" y2="800" stroke="#232D24" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#232D24" fill-opacity="0.65">KAN-RISE</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

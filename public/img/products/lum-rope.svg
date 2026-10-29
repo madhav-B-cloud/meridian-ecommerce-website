@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#F2E9DE"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#26221F" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#26221F" fill-opacity="0.07">P</text>
+  
+      <ellipse cx="400" cy="640" rx="185" ry="112" fill="none" stroke="#26221F" stroke-width="15"/>
+      <ellipse cx="400" cy="640" rx="120" ry="64" fill="none" stroke="#26221F" stroke-width="12" stroke-opacity="0.55"/>
+      <g transform="rotate(24 258 508)"><rect x="222" y="484" width="72" height="26" rx="13" fill="#A65B44"/></g>
+      <g transform="rotate(-24 542 508)"><rect x="506" y="484" width="72" height="26" rx="13" fill="#A65B44"/></g>
+      <line x1="220" y1="850" x2="580" y2="850" stroke="#26221F" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#26221F" fill-opacity="0.65">LUM-ROPE</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

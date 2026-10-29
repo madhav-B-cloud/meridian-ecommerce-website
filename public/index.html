@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MERIDIAN — Objects with a point of view</title>
+  <meta name="description" content="MERIDIAN — a small ecommerce storefront for considered objects, running on an event-saga order pipeline." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F5F0E6'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%231C1712' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23D64B27'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/fonts/fraunces/400.css" />
+  <link rel="stylesheet" href="/fonts/fraunces/400-italic.css" />
+  <link rel="stylesheet" href="/fonts/fraunces/600.css" />
+  <link rel="stylesheet" href="/fonts/archivo/400.css" />
+  <link rel="stylesheet" href="/fonts/archivo/500.css" />
+  <link rel="stylesheet" href="/fonts/archivo/700.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track" id="ticker-track"></div>
+  </div>
+
+  <header class="site-head" id="site-head">
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="site-head__inner">
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#/shop" data-nav="shop">Shop</a>
+        <a href="#/shop?category=Audio%20%26%20Sound" data-nav="audio">Audio</a>
+        <a href="#/shop?category=Workspace" data-nav="workspace">Workspace</a>
+        <a href="#/shop?category=Home%20%26%20Living" data-nav="home">Home</a>
+        <a href="#/shop?category=Everyday%20Carry" data-nav="carry">Carry</a>
+        <a href="#/orders" data-nav="orders">Orders</a>
+        <a href="#/admin" data-nav="admin" id="nav-admin" hidden>Admin</a>
+      </nav>
+      <a class="wordmark" href="#/" aria-label="Meridian home">MERIDIAN</a>
+      <div class="site-head__actions">
+        <button class="icon-btn" id="search-btn" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>
+        </button>
+        <a class="icon-btn" href="#/account" id="account-btn" aria-label="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="4"/><path d="M4 20c1.8-3.4 4.6-5 8-5s6.2 1.6 8 5"/></svg>
+        </a>
+        <a class="icon-btn cart-btn" href="#/cart" aria-label="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 7h12l-1.2 12.2a1.8 1.8 0 0 1-1.8 1.6H9a1.8 1.8 0 0 1-1.8-1.6L6 7Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span class="cart-count" id="cart-count" hidden>0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="site-main" tabindex="-1"></main>
+
+  <footer class="site-foot">
+    <div class="site-foot__inner">
+      <div class="site-foot__brand">
+        <span class="wordmark wordmark--foot">MERIDIAN</span>
+        <p>A small shop for considered objects.<br/>Orders run through an event-saga pipeline — stock is reserved before your payment is captured.</p>
+      </div>
+      <div class="site-foot__col">
+        <h4>Shop</h4>
+        <a href="#/shop">All objects</a>
+        <a href="#/shop?category=Audio%20%26%20Sound">Audio &amp; Sound</a>
+        <a href="#/shop?category=Workspace">Workspace</a>
+        <a href="#/shop?category=Home%20%26%20Living">Home &amp; Living</a>
+      </div>
+      <div class="site-foot__col">
+        <h4>Account</h4>
+        <a href="#/login">Sign in</a>
+        <a href="#/register">Create account</a>
+        <a href="#/orders">My orders</a>
+      </div>
+      <div class="site-foot__col">
+        <h4>Under the hood</h4>
+        <a href="#/saga">How orders work</a>
+        <a href="/actuator/health" target="_blank" rel="noopener">Health endpoint</a>
+      </div>
+    </div>
+    <div class="site-foot__legal">© 2026 Meridian — a demo storefront for the microservices-ecommerce platform.</div>
+  </footer>
+
+  <div class="toast-stack" id="toast-stack" aria-live="polite"></div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

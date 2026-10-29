@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#EDEFE3"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#232D24" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#232D24" fill-opacity="0.07">A</text>
+  
+      <path d="M 400 820 C 400 610 300 585 345 480" fill="none" stroke="#232D24" stroke-width="18" stroke-linecap="round"/>
+      <path d="M 345 480 A 74 74 0 0 1 493 480 Z" fill="#232D24"/>
+      <path d="M 368 500 L 470 500 L 505 690 L 333 690 Z" fill="#7D8F5F" fill-opacity="0.2"/>
+      <ellipse cx="400" cy="826" rx="110" ry="16" fill="#232D24"/>
+      <circle cx="352" cy="540" r="11" fill="#7D8F5F"/>
+      <line x1="220" y1="856" x2="580" y2="856" stroke="#232D24" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#232D24" fill-opacity="0.65">KAN-ALDR</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

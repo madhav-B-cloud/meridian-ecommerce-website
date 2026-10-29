@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#F3EAD9"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#211A1B" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#211A1B" fill-opacity="0.07">S</text>
+  
+      <rect x="170" y="540" width="460" height="190" rx="18" fill="#211A1B"/>
+      <circle cx="330" cy="635" r="92" fill="#F3EAD9"/>
+      <circle cx="330" cy="635" r="60" fill="none" stroke="#211A1B" stroke-width="5"/>
+      <circle cx="330" cy="635" r="9" fill="#E0512E"/>
+      <circle cx="560" cy="586" r="20" fill="#E0512E"/>
+      <line x1="560" y1="586" x2="462" y2="690" stroke="#E0512E" stroke-width="11" stroke-linecap="round"/>
+      <rect x="200" y="730" width="34" height="22" fill="#211A1B"/>
+      <rect x="566" y="730" width="34" height="22" fill="#211A1B"/>
+      <line x1="150" y1="820" x2="650" y2="820" stroke="#211A1B" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#211A1B" fill-opacity="0.65">AUR-TURN</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

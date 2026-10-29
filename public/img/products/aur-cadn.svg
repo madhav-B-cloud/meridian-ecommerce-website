@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#F3EAD9"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#211A1B" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#211A1B" fill-opacity="0.07">C</text>
+  
+      <circle cx="330" cy="400" r="38" fill="#E0512E"/>
+      <rect x="312" y="428" width="36" height="70" rx="18" fill="#211A1B"/>
+      <circle cx="470" cy="400" r="38" fill="#E0512E"/>
+      <rect x="452" y="428" width="36" height="70" rx="18" fill="#211A1B"/>
+      <rect x="260" y="540" width="280" height="190" rx="70" fill="#211A1B"/>
+      <line x1="290" y1="596" x2="510" y2="596" stroke="#F3EAD9" stroke-opacity="0.32" stroke-width="6"/>
+      <circle cx="400" cy="668" r="10" fill="#E0512E"/>
+      <line x1="220" y1="820" x2="580" y2="820" stroke="#211A1B" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#211A1B" fill-opacity="0.65">AUR-CADN</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#ECEDE8"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#1F242E" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#1F242E" fill-opacity="0.07">T</text>
+  
+      <rect x="272" y="510" width="256" height="190" rx="16" fill="#1F242E"/>
+      <circle cx="446" cy="606" r="46" fill="none" stroke="#5E7796" stroke-width="8"/>
+      <line x1="400" y1="606" x2="492" y2="606" stroke="#5E7796" stroke-width="6"/>
+      <ellipse cx="446" cy="606" rx="20" ry="46" fill="none" stroke="#5E7796" stroke-width="5"/>
+      <line x1="296" y1="556" x2="392" y2="556" stroke="#ECEDE8" stroke-opacity="0.4" stroke-width="9" stroke-linecap="round"/>
+      <line x1="296" y1="648" x2="368" y2="648" stroke="#ECEDE8" stroke-opacity="0.4" stroke-width="9" stroke-linecap="round"/>
+      <line x1="230" y1="790" x2="570" y2="790" stroke="#1F242E" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#1F242E" fill-opacity="0.65">FER-PASS</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#F6EFE2"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#2A2320" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#2A2320" fill-opacity="0.07">L</text>
+  
+      <circle cx="400" cy="520" r="185" fill="#C9883B" fill-opacity="0.16"/>
+      <path d="M 262 560 A 138 138 0 0 1 538 560 Z" fill="#2A2320"/>
+      <rect x="386" y="560" width="28" height="182" fill="#2A2320"/>
+      <rect x="308" y="742" width="184" height="26" rx="13" fill="#2A2320"/>
+      <line x1="530" y1="556" x2="530" y2="636" stroke="#C9883B" stroke-width="6"/>
+      <circle cx="530" cy="648" r="12" fill="#C9883B"/>
+      <line x1="240" y1="830" x2="560" y2="830" stroke="#2A2320" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#2A2320" fill-opacity="0.65">LUM-LUMN</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>

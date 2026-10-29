@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0"/></filter></defs>
+  <rect width="800" height="1000" fill="#F6EFE2"/>
+  <rect x="60" y="60" width="680" height="880" fill="none" stroke="#2A2320" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="96" y="300" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="420" fill="#2A2320" fill-opacity="0.07">T</text>
+  
+      <line x1="400" y1="756" x2="303.4" y2="442.4" stroke="#2A2320" stroke-width="7" stroke-linecap="round" stroke-opacity="0.75"/><line x1="400" y1="756" x2="351.7" y2="456.2" stroke="#2A2320" stroke-width="7" stroke-linecap="round" stroke-opacity="0.75"/><line x1="400" y1="756" x2="400" y2="470" stroke="#2A2320" stroke-width="7" stroke-linecap="round" stroke-opacity="1"/><line x1="400" y1="756" x2="448.3" y2="456.2" stroke="#2A2320" stroke-width="7" stroke-linecap="round" stroke-opacity="0.75"/><line x1="400" y1="756" x2="496.6" y2="442.4" stroke="#2A2320" stroke-width="7" stroke-linecap="round" stroke-opacity="0.75"/>
+      <circle cx="400" cy="466" r="9" fill="#C9883B"/>
+      <path d="M 402 420 C 372 370 432 340 406 282" fill="none" stroke="#C9883B" stroke-width="6" stroke-linecap="round" stroke-opacity="0.6"/>
+      <ellipse cx="400" cy="770" rx="120" ry="26" fill="#2A2320"/>
+      <line x1="240" y1="846" x2="560" y2="846" stroke="#2A2320" stroke-width="3"/>
+  <text x="98" y="902" font-family="Georgia, serif" font-size="26" letter-spacing="6" fill="#2A2320" fill-opacity="0.65">NOR-TERR</text>
+  <rect width="800" height="1000" filter="url(#grain)"/>
+</svg>
